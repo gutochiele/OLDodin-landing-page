@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+  }
+
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
@@ -10,7 +14,10 @@ body {
     min-height: 650px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 0 300px;
+
+
 }
 
 .third-background {
@@ -19,10 +26,9 @@ body {
 
 .header {
     display: flex;
-    padding: 16px;
+    padding: 16px 0;
     align-items: center;
-    max-width: 1000px; 
-    margin-inline: 80px;
+
 
 }
 
@@ -42,19 +48,41 @@ body {
 }
 
 .hero-banner {
-    margin: 200px 80px;
+    margin: 200px 0;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .hero {
-    max-width: 500px;
+    max-width: 600px;
+
 }
 
 .hero-title{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 32px 0;
+
+}
+
+a.button{
+    background-color: #3882f6;  
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
 }
 
 ul {
@@ -66,6 +94,7 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .footer {
     background-color: #1f2937;
