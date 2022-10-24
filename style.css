@@ -8,6 +8,8 @@ body {
     margin: 0;
 }
 
+ /* FIRST PART  */
+
 .first-background {
     background-color: #1f2937;
     color: white;
@@ -22,8 +24,6 @@ body {
     display: flex;
     padding: 16px 0;
     align-items: center;
-
-
 }
 
 .header-logo {
@@ -73,6 +73,7 @@ body {
     border-radius: 12px;
 }
 
+ /* SECOND PART */
 
 .second-background {
     min-height: 650px;
@@ -93,6 +94,7 @@ body {
 .main-page {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 80px;
 }   
@@ -102,7 +104,11 @@ body {
     border-radius: 12px;
 }
 
+.text {
+    text-align: center;
+}
 
+/* THIRD PART */
 
 .third-background {
     background-color: #e5e7eb;
@@ -127,6 +133,8 @@ body {
     font-weight: 900;
     padding-top: 25px;
 }
+
+/* FOURTH PART */
 
 .fourth-background {
     min-height: 450px;
